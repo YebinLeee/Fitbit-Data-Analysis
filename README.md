@@ -1,7 +1,9 @@
 # Fitbit-Data-Analysis
-Fitbit을 이용해 얻은 데이터 활용하여 분석
+Fitbit을 이용해 얻은 활동량 Time Series(시계열) 데이터 분석
 
-- json data 기본 형식 
+<details> 
+  <summary> json data 기본 형식(dataset 일부 추출) </summary>
+
 ```
 'distance':
              {'activities-distance': [
@@ -57,6 +59,8 @@ Fitbit을 이용해 얻은 데이터 활용하여 분석
          }
 }                
 ```
+</details>
+
 <details>
   <summary> Json raw_data sample </summary>
   
