@@ -1,6 +1,51 @@
 # Fitbit-Data-Analysis
 Fitbit을 이용해 얻은 데이터 활용하여 분석
 
+- json data 기본 형식 
+```
+{'distance':
+             {'activities-distance': [
+                       {'dateTime': '2021-11-18', 'value': '0'}
+                                          ],
+               'activities-distance-intraday':
+                          {'dataset': [
+                                    {'time': '09:00:00', 'value': 0},
+                                    {'time': '09:01:00', 'value': 0},
+                                    {'time': '09:02:00', 'value': 0},
+                                          ],
+                 'datasetInterval': 1, 'datasetType': 'minute'
+             }
+}, 
+
+'calories':
+             {'activities-calories': [
+                          {'dateTime': '2021-11-18', 'value': '63.65'}
+                                         ],
+
+               'activities-calories-intraday':
+                            {'dataset': [
+                                   {'level': 0, 'mets': 10, 'time': '09:00:00', 'value': 1.0608},
+                                   {'level': 0, 'mets': 10, 'time': '09:01:00', 'value': 1.0608},
+                                           ],       
+               'datasetInterval': 1, 'datasetType': 'minute'
+              }
+},
+
+'steps': 
+         {'activities-steps': [
+                          {'dateTime': '2021-11-18', 'value': '0'}
+                                  ],
+             'activities-steps-intraday':
+                            {'dataset': [
+                                  {'time': '09:00:00', 'value': 0},
+                                  {'time': '09:01:00', 'value': 0},
+                                  {'time': '09:59:00', 'value': 0}
+                                           ], 
+             'datasetInterval': 1, 'datasetType': 'minute'
+                              }
+         }
+}                
+```
 <details>
   <summary> Json raw_data sample </summary>
   
@@ -9,12 +54,16 @@ Fitbit을 이용해 얻은 데이터 활용하여 분석
 ```
   
 </details>
+<br> <hr>
 
-### data (dictionary) 형식
+
+# Data Analysis
+### 1. data (dictionary) 형식
 <img src= "https://user-images.githubusercontent.com/71310074/143681059-f47078f5-2277-4aa8-ae79-0f2cd1b75aa9.png" width="600">
 
-## json Data (json) 형식
+## 2. json Data (json) 형식
 <img src = "https://user-images.githubusercontent.com/71310074/143681372-fe0ba8ab-d5e4-404d-b8bb-24a87701435f.png" width="600">
+<br>
 
 <details>
   <summary> calories data (dictionary) </summary>
@@ -65,5 +114,11 @@ Fitbit을 이용해 얻은 데이터 활용하여 분석
 </details>
   
 
+<hr>
+
+# Results
+- dateTime, data index, time(1분 간격)
+- distance(value), calories(level, mets, value), steps(value)
 
 
+<img src = "https://user-images.githubusercontent.com/71310074/143682247-adfa36b8-60a1-4516-bed2-2df17dedd40b.png" width="350">
