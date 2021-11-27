@@ -1,5 +1,16 @@
-# Fitbit-Data-Analysis
+# BLEP Fitbit-Data-Analysis
 Fitbit을 이용해 얻은 활동량 Time Series(시계열) 데이터 분석
+
+## To-Do
+- [ ] 시계열 데이터 numpy 배열로 변환
+- [ ] matplotlib을 이용하여 데이터 시각화
+- [ ] 데이터 분석
+
+<br>
+ <hr>
+
+
+# Data 
 
 <details> 
   <summary> json data 기본 형식(dataset 일부 추출) </summary>
@@ -69,10 +80,9 @@ Fitbit을 이용해 얻은 활동량 Time Series(시계열) 데이터 분석
 ```
   
 </details>
-<br> <hr>
+<br>
 
 
-# Data Analysis
 ### 1. raw data (CSV File)
 - 2021.04.07 09:00:00 ~ 2021.11.18 09:00:00
 
