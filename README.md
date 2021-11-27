@@ -149,3 +149,6 @@ Fitbit을 이용해 얻은 활동량 Time Series(시계열) 데이터 분석
 
 - time - distance(value), calories(level, mets, value), steps(value)
 <img src = "https://user-images.githubusercontent.com/71310074/143686335-5d6a0adb-02a1-4fbf-bdc4-3b0b4bf8ddab.png" width="350">
+<img src = "https://user-images.githubusercontent.com/71310074/143686402-f449455c-f225-4ead-823e-d76ea1fcd7a0.png" width="350">
+
+
