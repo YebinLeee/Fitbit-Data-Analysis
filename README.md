@@ -69,10 +69,19 @@ Fitbit을 이용해 얻은 데이터 활용하여 분석
 
 
 # Data Analysis
-### 1. data (dictionary) 형식
+### 1. raw data (CSV File)
+- 2021.04.07 09:00:00 ~ 2021.11.18 09:00:00
+
+
+![image](https://user-images.githubusercontent.com/71310074/143684509-72c29569-38d4-400a-8c66-a6c9872f819e.png)
+![image](https://user-images.githubusercontent.com/71310074/143684558-ffd2f3c3-6437-4c8a-985c-03d281315ad0.png)
+![image](https://user-images.githubusercontent.com/71310074/143684571-44b62484-f1a8-4482-a0ea-5d13ecb13d73.png)
+
+
+### 2. data (dictionary) 형식
 <img src= "https://user-images.githubusercontent.com/71310074/143681059-f47078f5-2277-4aa8-ae79-0f2cd1b75aa9.png" width="600">
 
-## 2. json Data (json) 형식
+## 3. json Data (json) 형식
 <img src = "https://user-images.githubusercontent.com/71310074/143681372-fe0ba8ab-d5e4-404d-b8bb-24a87701435f.png" width="600">
 <br>
 
