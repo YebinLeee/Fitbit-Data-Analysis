@@ -84,7 +84,9 @@ def brief_data(start, end):
     
         # 1분 간격으로 시간당 총 60개의 데이터 출력
         for i in range(len(distance_data)):
-            print(distance_data[i]['time'] , ' - ' , distance_data[i]['value'], calories_data[i]['level'], calories_data[i]['mets'], calories_data[i]['value'],steps_data[i]['value'])
+            print(distance_data[i]['time'] , ' - ' , distance_data[i]['value'],
+                  calories_data[i]['level'], calories_data[i]['mets'], calories_data[i]['value'],
+                  steps_data[i]['value'])
 
         
 
