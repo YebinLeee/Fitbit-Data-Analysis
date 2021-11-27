@@ -3,45 +3,56 @@ Fitbit을 이용해 얻은 데이터 활용하여 분석
 
 - json data 기본 형식 
 ```
-{'distance':
+'distance':
              {'activities-distance': [
-                       {'dateTime': '2021-11-18', 'value': '0'}
-                                          ],
-               'activities-distance-intraday':
+                      {'dateTime': '2021-11-18',
+                       'value': '0'
+                       }
+                                      ],
+              'activities-distance-intraday':
                           {'dataset': [
                                     {'time': '09:00:00', 'value': 0},
                                     {'time': '09:01:00', 'value': 0},
                                     {'time': '09:02:00', 'value': 0},
-                                          ],
-                 'datasetInterval': 1, 'datasetType': 'minute'
+                                       ],
+               'datasetInterval': 1,
+               'datasetType': 'minute'
              }
 }, 
 
 'calories':
-             {'activities-calories': [
-                          {'dateTime': '2021-11-18', 'value': '63.65'}
-                                         ],
+             {
+             'activities-calories': [
+                         {'dateTime': '2021-11-18',
+                          'value': '63.65'
+                          }
+                                      ],
 
                'activities-calories-intraday':
                             {'dataset': [
                                    {'level': 0, 'mets': 10, 'time': '09:00:00', 'value': 1.0608},
                                    {'level': 0, 'mets': 10, 'time': '09:01:00', 'value': 1.0608},
-                                           ],       
-               'datasetInterval': 1, 'datasetType': 'minute'
+                                         ],       
+               'datasetInterval': 1,
+               'datasetType': 'minute'
               }
 },
 
 'steps': 
          {'activities-steps': [
-                          {'dateTime': '2021-11-18', 'value': '0'}
-                                  ],
-             'activities-steps-intraday':
+                          {
+                          'dateTime': '2021-11-18',
+                          'value': '0'
+                          }
+                               ],
+           'activities-steps-intraday':
                             {'dataset': [
                                   {'time': '09:00:00', 'value': 0},
                                   {'time': '09:01:00', 'value': 0},
                                   {'time': '09:59:00', 'value': 0}
-                                           ], 
-             'datasetInterval': 1, 'datasetType': 'minute'
+                                         ], 
+           'datasetInterval': 1,
+           'datasetType': 'minute'
                               }
          }
 }                
